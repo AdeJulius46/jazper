@@ -25,12 +25,12 @@ nav{
 
 }
 
-.logo-image{
+ a .logo-image{
     width: 15%;
     margin: 0 40px 0 70px ;
 }
 
-.logo-image img{
+ a .logo-image img{
     width: 40px;
     height: 35px;
 }
@@ -133,14 +133,14 @@ section{
     font-size: 20px;
 }
 
-.menus div a{
+.menus  a div{
     text-decoration: none;
     color: var(--dark);
     font-weight: bold;
     font-size: 15px;
 }
 
-.menus div a:hover{
+.menus a div:hover{
     background-color: rgba(219, 211, 211, 0.5);
     font-size: 17px;
     transition: 0.25s ease-in-out;
