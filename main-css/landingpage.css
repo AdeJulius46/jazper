@@ -1,0 +1,81 @@
+.navbar{
+ width: 90%; 
+   position: fixed;
+   z-index: 1; 
+ }  
+img{
+    width: 70%;
+}
+.activ{
+    color: black;
+    background: white;
+    border: none;   
+    padding: 7px 30px;
+}
+.activ:hover{
+    outline: thin  solid rgb(255, 69, 0);
+    border-radius: 9px;
+
+}
+.sign-btn{
+    color:rgb(255, 69, 0);
+    background: white;
+    border: none;   
+    outline: thin  solid  rgb(255, 69, 0);
+    border-radius: 9px;
+}
+.sign-up-btn{
+    color: white;
+    background-color: rgb(255, 69, 0);
+    border: none;
+    border-radius: 9px;
+    padding: 7px 20px;
+}
+.sign-up-btn:hover{
+    color: black;
+    background: white;
+    outline: thin  solid rgb(255, 69, 0);
+}
+
+.head{
+    transform: translateY(160px);
+}
+.body{
+    transform: translateY(100px);
+  margin-top: 200px;
+}
+
+.footer{
+    transform: translateY(100px);
+    margin-top: 200px;
+    color: white;
+}
+.foo{
+    display: flex;
+    justify-content: flex-end;
+}
+.items{
+        font-style: italic;
+        font-weight: bolder;
+        background-color:  rgb(255, 69, 0);
+        text-align: center;
+}
+table{
+    cursor: pointer;
+}
+.contain a{
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+    text-decoration: none;
+}
+.social{
+	color:gray;	
+	transition: all ;
+    background-color: white;	
+}
