@@ -140,6 +140,10 @@ section{
     transition: 0.3s;
 }
 
+.details a{
+    text-decoration: none;
+}
+
 .details h5{
     font-style: italic;
     word-spacing: 3px;
@@ -168,6 +172,7 @@ section{
 #forgotten-password{
     margin-bottom: -200px;
 }
+
 
 #forgotten-password-form{
     width: 90%;
